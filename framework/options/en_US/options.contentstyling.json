@@ -1,0 +1,90 @@
+[
+	{
+		"groupname": "Content Style",
+		"groupdesc": "You can set here style for blog pages and pages.",
+		"fields": [
+		{
+				"name": "postmeta_author_state",
+				"type": "Switcher",
+				"label": "Author in post meta data",
+				"tooltip": "If you would like to display the Author along with your post meta data, enable this setting",
+				"default": "Y"
+			},
+		{
+				"name": "postmeta_category_state",
+				"type": "Switcher",
+				"label": "Category in post meta data",
+				"tooltip": "If you would like to display the Category along with your post meta data, enable this setting",
+				"default": "Y"
+			},
+		{
+				"name": "postmeta_coments_state",
+				"type": "Switcher",
+				"label": "Comments link in post meta data",
+				"tooltip": "If you would like to display the Number of Comments along with your post meta data, enable this setting",
+				"default": "Y"
+			},
+		{
+				"name": "archive_title_state",
+				"type": "Switcher",
+				"label": "Archive Category title",
+				"tooltip": "Here you can enable or disable displaying of the page title ie. <b>'Category : ...', 'Archive for ...'</b> etc.",
+				"default": "Y"
+			},
+		{
+				"name": "feed_title_state",
+				"type": "Switcher",
+				"label": "Post titles in feed",
+				"tooltip": "Here you can enable or disable displaying of the post titles in feed.",
+				"default": "Y"
+			},
+		{
+				"name": "single_post_title_state",
+				"type": "Switcher",
+				"label": "Single post title",
+				"tooltip": "Here you can enable or disable displaying of the post title in single post view. If disabled will be displyed only title in post header area as big title.",
+				"default": "Y"
+			},
+		{
+				"name": "search_in_header_state",
+				"type": "Switcher",
+				"label": "Search field in header area",
+				"tooltip": "Here you can enable or disable displaying of search field in header area.",
+				"default": "Y"
+			},
+			{
+				"name": "excerpt_length",
+				"type": "Text",
+				"label": "Excerpt length in words",
+				"tooltip": "Here you can set custom excerpt length. By default in Wordpress it is 55 words.",
+				"default": "55",
+				"class": ""
+			},
+			{
+				"name": "portfolio_items_per_page",
+				"type": "Text",
+				"label": "Portfolio items per page",
+				"tooltip": "Here you can set how many portfolio items will be displayed on one page in portfolio view. By default it is 10 items.",
+				"default": "10",
+				"class": ""
+			},
+			{
+				"name": "portfolio_default_page",
+				"type": "Text",
+				"label": "Portfolio page default link",
+				"tooltip": "Here you can set portfolio page default link. It is used as return URL for single protfolio view. If you leave it blank link to default portfolio view in single item portfolio view will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "contact_template_email",
+				"type": "Text",
+				"label": "Contact e-mail",
+				"tooltip": "Specifies e-mail used on the Contact page template",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			}
+					]
+	}
+]

@@ -1,0 +1,16 @@
+{
+	"template": {
+		"name": "Maximus",
+		"update_name": "maximusWP",
+		"date": "21/10/2012",
+		"version": "1.0",
+		"description": "Multipurpose Responsive Wordpress Theme"
+	},
+	"developer_config": {
+		"visibility": {
+			"template_options": true,
+			"importexport": true,
+			"support": true
+		}
+	}
+}

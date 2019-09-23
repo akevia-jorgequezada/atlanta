@@ -1,0 +1,29 @@
+[
+	{
+		"family": "color",
+		"family_desc": "Theme color",
+		"family_tooltip": "You can select one of the theme colors",
+		"styles": [
+			{
+				"name": "Default (as set in admin panel)",
+				"value": "default",
+				"file": "style0.css"
+			},
+			{
+				"name": "Style1",
+				"value": "style1",
+				"file": "style1.css"
+			},
+			{
+				"name": "Style2",
+				"value": "style2",
+				"file": "style2.css"
+			},
+			{
+				"name": "Style3",
+				"value": "style3",
+				"file": "style3.css"
+			}
+		]
+	}
+]

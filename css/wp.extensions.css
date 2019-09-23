@@ -1,0 +1,516 @@
+/**
+ *
+ * -------------------------------------------
+ * WP Extensions CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 8. Additional WP extensions styles
+ *
+ *
+------------------------------------ */
+
+/* 8.1. Archives widget
+==================================== */
+
+/* 8.2. Custom menu widget
+==================================== */
+
+/* 8.3. Pages widget
+==================================== */
+
+/* 8.4. RSS widget
+==================================== */
+
+.box h3.box-title .rsswidget {
+	clear: none;
+	float: left;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.box .rsswidget {
+	clear: both;
+	display: block;
+	font-size: 12px;
+}
+
+.box .rss-date {
+	clear: both;
+	display: block;
+	font-size: 9px;
+	font-style: italic;
+	margin-top: -10px;
+	text-align: right;
+}
+
+.box .rssSummary {
+	clear: both;
+	color: #888;
+	font-size: 10px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+/* 8.5. Text widget
+==================================== */
+
+#gk-header .box.widget_text {
+	padding: 0!important;
+}
+
+#gk-header .box.widget_text img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* 8.6. Calendar widget
+==================================== */
+
+.box #wp-calendar {
+	background: #fbfbfb;
+	width: 100%;
+}
+
+.box #wp-calendar caption {
+	background: #fff;
+	border: 1px solid #eee;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 5px 0;
+}
+
+.box #wp-calendar th {
+	background: #f5f5f5;
+	color: #333;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 3px;
+}
+
+.box #wp-calendar td {
+	background: #fff;
+	border: 1px solid #eee;
+	font-size: 11px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.box #wp-calendar td a {
+	color: #418cd1;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	margin: -5px 0;
+	padding: 5px 0;
+}
+
+.box #wp-calendar td a:hover {
+	background: #333;
+	color: #fff;
+}
+
+.box #wp-calendar #today {
+	background: #6E97B3;
+	color: #fff!important;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.box #wp-calendar #today a {
+	color: #fff!important;
+}
+
+.box #wp-calendar #prev a,
+.box #wp-calendar #next a {
+	color: #6E97B3;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.box #wp-calendar #prev a:hover,
+.box #wp-calendar #next a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.box #wp-calendar thead {
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	border-bottom: none;
+}
+
+.box.widget_calendar {
+	overflow: visible!important;
+}
+
+/* 8.7. Links widget
+==================================== */
+
+.box ul.xoxo a {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.box ul.xoxo a img {
+	vertical-align: middle;
+}
+
+.box ul.xoxo li {
+	font-size: 10px;
+	padding: 5px 0;
+}
+
+/* 8.8. Recent comments widget
+==================================== */
+
+/* 8.9. Search widget
+==================================== */
+ 
+.box #searchform label,
+.box #searchform #searchsubmit{
+	display: none;
+}
+
+.box #searchform .field {
+	width: 100%;
+}
+ 
+/* 8.10. Categories widget
+==================================== */
+
+/* 8.11. Meta widget
+==================================== */
+
+/* 8.12. Recent posts widget
+==================================== */
+
+/* 8.13. Tag cloud widget
+==================================== */
+
+
+
+
+.tagcloud {
+	overflow: hidden;
+}
+
+.tagcloud a {
+	color: #666 !important;
+	display: block;
+	background: #ddd;
+	float: left;
+	font-size: 11px!important;
+	height: 19px;
+	line-height: 19px;
+	margin: 8px 8px 8px 0;
+	padding: 5px 12px 5px 12px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.tagcloud a:active,
+.tagcloud a:focus,
+.tagcloud a:hover {
+	background-color: #61B2DD;
+	color:#fff!important;;
+}
+
+/* 8.14. Common widget styles
+==================================== */
+
+/* Modules */
+.box {
+	margin-bottom: 35px;
+}
+
+#gk-header .box {
+	margin-bottom: 0!important;
+}
+
+.box ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.box ul li {
+	line-height: 1.5;
+	padding: 5px 0;
+}
+
+.box .box-title {
+	font-size: 20px;
+	margin-bottom: 17px;
+	text-transform:uppercase;
+}
+
+#gk-bottom .box a {
+	color: #777;
+}
+
+#gk-bottom .box a:active,
+#gk-bottom .box a:focus,
+#gk-bottom .box a:hover {
+	color: #333;
+}
+#gk-bottom .box ul li {
+	line-height: 2;
+	padding: 0;
+}
+
+/* Suffix blue & blue-header */
+.box.blue-border > div {
+	border: 3px solid #6E97B3!important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 15px;	
+}
+
+.box.blue-header .box-title {
+	color: #6E97B3;
+}
+
+.box.blue > div {
+	background: #6E97B3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.box.blue .box-title {
+	color: #fff;
+}
+
+.box.blue a,
+#gk-bottom .box.blue a {
+	color: #e8effa;
+}
+
+.box.blue a:active,
+.box.blue a:focus,
+.box.blue a:hover,
+#gk-bottom .box.blue a:active,
+#gk-bottom .box.blue a:focus,
+#gk-bottom .box.blue a:hover {
+	color: #fff;
+}
+
+/* Suffix red & red-header */
+.box.red-border > div {
+	border: 3px solid #E4754F!important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 15px;	
+}
+
+.box.red-header .box-title {
+	color: #E4754F;
+}
+
+.box.red-header a,
+#gk-bottom .box.red-header a {
+	color: #E4754F;
+}
+
+.box.red-header a:active,
+.box.red-header a:focus,
+.box.red-header a:hover,
+#gk-bottom .box.red-header a:active,
+#gk-bottom .box.red-header a:focus,
+#gk-bottom .box.red-header a:hover  {
+	color: #ff736e;
+}
+
+.box.red > div {
+	background: #E4754F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.box.red .box-title {
+	color: #fff!important;;
+}
+
+.box.red a,
+#gk-bottom .box.red a {
+	color: #ffc4c2!important;
+}
+
+.box.red a:active,
+.box.red a:focus,
+.box.red a:hover,
+#gk-bottom .box.red a:active,
+#gk-bottom .box.red a:focus,
+#gk-bottom .box.red a:hover {
+	color: #fff!important;
+}
+
+/* Suffix green & green-header */
+.box.green-border > div {
+	border: 3px solid #91AB00!important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 15px;	
+}
+
+.box.green-header .box-title {
+	color: #91AB00!important;
+}
+
+.box.green-header a,
+#gk-bottom .box.green-header a {
+	color: #91AB00!important;
+}
+
+.box.green-header a:active,
+.box.green-header a:focus,
+.box.green-header a:hover,
+#gk-bottom .box.green-header a:active,
+#gk-bottom .box.green-header a:focus,
+#gk-bottom .box.green-header a:hover {
+	color: #7fdb7f!important;
+}
+
+.box.green > div {
+	background: #91AB00!important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.box.green .box-title {
+	color: #fff!important;
+}
+
+.box.green a,
+#gk-bottom .box.green a {
+	color: #e4f3e4!important;
+}
+
+.box.green a:active,
+.box.green a:focus,
+.box.green a:hover,
+#gk-bottom .box.green a:active,
+#gk-bottom .box.green a:focus,
+#gk-bottom .box.green a:hover {
+	color: #fff!important;
+}
+
+/* Suffix pink & pink-header */
+.box.pink-border > div {
+	border: 3px solid #F0986C!important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 15px;	
+}
+
+.box.pink-header .box-title {
+	color: #F0986C!important;
+}
+
+.box.pink-header a,
+#gk-bottom .box.pink-header a {
+	color: #F0986C!important;
+}
+
+.box.pink-header a:active,
+.box.pink-header a:focus,
+.box.pink-header a:hover,
+#gk-bottom .box.pink-header a:active,
+#gk-bottom .box.pink-header a:focus,
+#gk-bottom .box.pink-header a:hover {
+	color: #fdd672!important;
+}
+
+.box.pink > div {
+	background: #F0986C;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.box.pink .box-title {
+	color: #fff!important;
+}
+
+.box.pink a,
+#gk-bottom .box.pink a {
+	color: #fffbc7!important;
+}
+
+.box.pink a:active,
+.box.pink a:focus,
+.box.pink a:hover,
+#gk-bottom .box.pink a:active,
+#gk-bottom .box.pink a:focus,
+#gk-bottom .box.pink a:hover {
+	color: #fff!important;
+}
+
+/* Suffix border1 */
+.box.border1 > div {
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+
+/* Suffix border2 */
+.box.border2 > div {
+	border: 3px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+
+/* Suffix border3 */
+.box.border3 > div {
+	border: 2px dashed #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+
+/* Suffix heading line */
+
+.box.heading-line .box-title {
+	background:url(../images/dotted.png) repeat-x bottom;
+	margin:20px 0 30px 0px;
+	position:relative;
+	z-index:11;
+	height:27px;}
+.box.heading-line .box-title  span {
+	background-color:#FFFFFF;
+	border-bottom:1px solid #61b2dd;
+	padding-right:10px;
+	padding-bottom:4px;
+}
+/* Suffix flush bottom */
+
+.box.flush-bottom{
+	margin-bottom: 0px;
+	padding:0px!important;
+}
+

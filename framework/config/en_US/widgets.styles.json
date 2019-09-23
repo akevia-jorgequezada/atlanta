@@ -1,0 +1,79 @@
+[
+	{
+		"name": "Blue",
+		"css_class": "blue",
+		"exclude": "widget_dp_comments"
+	},
+	{
+		"name": "Red",
+		"css_class": "red",
+		"exclude": "widget_dp_comments"
+	},
+	{
+		"name": "Green",
+		"css_class": "green",
+		"exclude": "widget_dp_comments"
+	},
+	{
+		"name": "Pink",
+		"css_class": "pink",
+		"exclude": "widget_dp_comments"
+	},
+	{
+		"name": "Blue Header",
+		"css_class": "blue-header"
+	},
+	{
+		"name": "Red Header",
+		"css_class": "red-header"
+	},
+	{
+		"name": "Green Header",
+		"css_class": "green-header"
+	},
+	{
+		"name": "Pink Header",
+		"css_class": "pink-header"
+	},
+	{
+		"name": "Border I",
+		"css_class": "border1"
+	},
+	{
+		"name": "Border II",
+		"css_class": "border2"
+	},
+	{
+		"name": "Border III",
+		"css_class": "border3"
+	},
+	{
+		"name": "Blue Border",
+		"css_class": "blue-border"
+	},
+	{
+		"name": "Red Border",
+		"css_class": "red-border"
+	},
+	{
+		"name": "Green Border",
+		"css_class": "green-border"
+	},
+	{
+		"name": "Pink Border",
+		"css_class": "pink-border"
+	},
+	{
+		"name": "Underline title",
+		"css_class": "heading-line"
+	},
+	{
+		"name": "Flush bottom",
+		"css_class": "flush-bottom"
+	},
+	{
+		"name": "Unified style",
+		"css_class": "tags",
+		"for_only": "tag_cloud"
+	}
+]

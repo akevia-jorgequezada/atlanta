@@ -1,0 +1,24 @@
+/**
+ *
+ * Styles for WP admin page
+ *
+ **/
+
+#content_dp_rev {
+	visibility:hidden;
+}
+
+.mce-ico.mce-i-dp-columns {background-image:url(../../images/back-end/tinymce/columns.png)}
+.mce-ico.mce-i-dp_style {background-image:url(../../images/back-end/tinymce/code.png)}
+.mce-ico.mce-i-dp-button {background-image:url(../../images/back-end/tinymce/button.png)}
+.mce-ico.mce-i-dp_lists {background-image:url(../../images/back-end/tinymce/list.png)}
+.mce-ico.mce-i-dp_testimonials {background-image:url(../../images/back-end/tinymce/testimonial.png)}
+.mce-ico.mce-i-dp_boxes {background-image:url(../../images/back-end/tinymce/boxes.png)}
+.mce-ico.mce-i-dp_icon_boxes {background-image:url(../../images/back-end/tinymce/icon-box.png)}
+.mce-ico.mce-i-dp_images {background-image:url(../../images/back-end/tinymce/image.png)}
+.mce-ico.mce-i-dp_lightbox {background-image:url(../../images/back-end/tinymce/lightbox.png)}
+.mce-ico.mce-i-dp_tabs {background-image:url(../../images/back-end/tinymce/tabs.png)}
+.mce-ico.mce-i-dp-map {background-image:url(../../images/back-end/tinymce/map.png)}
+.mce-ico.mce-i-dp-youtube {background-image:url(../../images/back-end/tinymce/youtube.png)}
+.mce-ico.mce-i-dp-vimeo {background-image:url(../../images/back-end/tinymce/vimeo.png)}
+.mce-ico.mce-i-dp_slideshow {background-image:url(../../images/back-end/tinymce/slideshow.png)}

@@ -1,0 +1,397 @@
+[
+	{
+		"groupname": "Apperance",
+		"groupdesc": "You can set here style for many theme elements.",
+		"fields": [
+		]
+	},
+		{
+		"groupname": "General style",
+		"groupdesc": "You can set general page style.",
+		"fields": [{
+				"name": "maincontent_accent_color",
+				"type": "Color",
+				"label": "Main accent color",
+				"tooltip": "Select a default main accent color used for different page elements links, menu hover color etc. This color by default is used for all coloured elements but you can override it for some element bellow",
+				"default": "#61B2DD",
+				"visibility": ""
+			},			
+{
+				"name": "page_wrap_state",
+				"type": "Select",
+				"label": "Page layout",
+				"tooltip": "Select full width streched or boxed layout.",
+				"default": "stretched",
+				"visibility": "",
+				"other": {
+					"options": {
+						"stretched": "Stretched layout",
+						"boxed": "Boxed layout"
+					}
+				}
+			},
+			{
+				"name": "body_bgcolor",
+				"type": "Color",
+				"label": "Page body background color",
+				"tooltip": "Select a default page body background color.",
+				"default": "#ffffff",
+				"visibility": "page_wrap_state=boxed"
+			},
+			{
+				"name": "body_pattern",
+				"type": "Background",
+				"label": "Page body patern",
+				"tooltip": "Specify page body pattern.",
+				"class": "",
+				"visibility": "",
+				"default":"none",
+				"visibility": "page_wrap_state=boxed",
+				"other": {
+					"folder": "patterns"
+				}
+			},
+			{
+				"name": "pagewrap_bordercolor",
+				"type": "Color",
+				"label": "Page wrap border color",
+				"tooltip": "Select a default page wrap border color.",
+				"default": "#ffffff",
+				"visibility": "page_wrap_state=boxed"
+			},
+			{
+				"name": "pagewrap_border_width",
+				"type": "Text",
+				"label": "Page wrap border width (in px)",
+				"tooltip": "Specify the page wrap border width.",
+				"default": "2",
+				"class": "medium",
+				"visibility": "page_wrap_state=boxed"
+			},
+			{
+				"name": "pagewrap_shadow_color",
+				"type": "Color",
+				"label": "Page wrap shadow color",
+				"tooltip": "Select a default page wrap shadow color.",
+				"default": "#575757",
+				"visibility": "page_wrap_state=boxed"
+			},
+			{
+				"name": "pagewrap_shadow_size",
+				"type": "Text",
+				"label": "Page wrap shadow size (in px)",
+				"tooltip": "Specify the page wrap shadow size.",
+				"default": "8",
+				"class": "medium",
+				"visibility": "page_wrap_state=boxed"
+			},
+			{
+				"name": "body_bg_image_state",
+				"type": "Switcher",
+				"label": "Use body background image",
+				"tooltip": "Enable use body background image.",
+				"default": "N",
+				"visibility": "page_wrap_state=boxed"
+			},
+
+			{
+				"name": "body_bg_image",
+				"type": "Media",
+				"label": "Mainbody background image",
+				"tooltip": "Select the image for the bodu background.",
+				"default": "",
+				"class": "",
+				"visibility": "page_wrap_state=boxed,body_bg_image_state=Y"
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+
+					]
+	},
+	{
+		"groupname": "Top panel style",
+		"groupdesc": "You can set here style for top panel.",
+		"fields": [
+			{
+				"name": "toppanel_bgcolor",
+				"type": "Color",
+				"label": "Top panel background color",
+				"tooltip": "Select a default top panel background color.",
+				"default": "#161615",
+				"visibility": ""
+			},
+			{
+				"name": "toppanel_text_color",
+				"type": "Color",
+				"label": "Top panel text color",
+				"tooltip": "Select a default top panel text color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "toppanel_link_color",
+				"type": "Color",
+				"label": "Top panel link color",
+				"tooltip": "Select a default top panel link color.",
+				"default": "#f2f2f2",
+				"visibility": ""
+			},
+			{
+				"name": "toppanel_hlink_color",
+				"type": "Color",
+				"label": "Top panel link hover color",
+				"tooltip": "Select a default top panel hover link color.",
+				"default": "#f2f2f2",
+				"visibility": ""
+			},
+			{
+				"name": "toppanel_header_color",
+				"type": "Color",
+				"label": "Top panel headers color",
+				"tooltip": "Select a default top panel header color.",
+				"default": "#fffff",
+				"visibility": ""
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+
+		]
+	},
+	{
+		"groupname": "Main Menu Style",
+		"groupdesc": "You can set some style for main menu.",
+		"fields": [
+			{
+				"name": "mainmenu_1stlevel_explained",
+				"type": "TextBlock",
+				"label": "Main menu 1st level settings"
+			},
+			{
+				"name": "mainmenu_link_color",
+				"type": "Color",
+				"label": "Main menu link color",
+				"tooltip": "Select a default menu link color.",
+				"default": "#2B2D30",
+				"visibility": ""
+			},
+			{
+				"name": "mainmenu_hlink_color",
+				"type": "Color",
+				"label": "Main menu hover link color",
+				"tooltip": "Select a default menu hover link color.",
+				"default": "#61B2DD",
+				"visibility": ""
+			},
+			{
+				"name": "mainmenu_alink_color",
+				"type": "Color",
+				"label": "Main menu active link color",
+				"tooltip": "Select a default menu active link color.",
+				"default": "#61B2DD",
+				"visibility": ""
+			},
+			{
+				"name": "mainmenu_submenu_explained",
+				"type": "TextBlock",
+				"label": "Main menu submenu settings"
+			},
+			{
+				"name": "mainmenu_subwraper_bgcolor",
+				"type": "Color",
+				"label": "Submenu wraper background color",
+				"tooltip": "Select a default submenu wraper background color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "mainmenu_subwraper_opacity",
+				"type": "Opacity",
+				"label": "Submenu wraper background opacity",
+				"tooltip": "Select a submenu wraper background opacity.",
+				"visibility": "",
+				"default": "1",
+				"other": {
+					"options": {
+						"0": "0",
+						"0.1": "0.1",
+						"0.2": "0.2",
+						"0.3": "0.3",
+						"0.4": "0.4",
+						"0.5": "0.5",
+						"0.6": "0.6",
+						"0.7": "0.7",
+						"0.8": "0.8",
+						"0.9": "0.9",
+						"1": "1"
+					}
+				}
+
+			},
+			{
+				"name": "mainmenu_subwraper_shadow_state",
+				"type": "Switcher",
+				"label": "Submenu wraper shadow",
+				"tooltip": "Enable submenu wraper shadow.",
+				"default": "Y"
+			},
+			{
+				"name": "mainmenu_submenu_link_color",
+				"type": "Color",
+				"label": "Submenu link color",
+				"tooltip": "Select a default submenu link color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "mainmenu_submenu_hlink_color",
+				"type": "Color",
+				"label": "Submenu link hover color",
+				"tooltip": "Select a default submenu link hover color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+		]
+	},
+	{
+		"groupname": "Slideshow Area Style",
+		"groupdesc": "You can set here general style for slideshow area. Style for sliders as such can be done in the Sliders Setting tab. ",
+		"fields": [
+					{
+				"name": "slideshow_bg_color",
+				"type": "Color",
+				"label": "Slideshow area background color",
+				"tooltip": "Select a slideshow area background color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+
+		]
+	},
+	{
+		"groupname": "Main Content Style",
+		"groupdesc": "You can set here style main content.",
+		"fields": [
+			{
+				"name": "maincontent_text_color",
+				"type": "Color",
+				"label": "Main content text color",
+				"tooltip": "Select a default main content area text color.",
+				"default": "#76797C",
+				"visibility": ""
+			},
+			{
+				"name": "maincontent_link_color",
+				"type": "Color",
+				"label": "Main content link color",
+				"tooltip": "Select a default main content link color.",
+				"default": "#61B2DD",
+				"visibility": ""
+			},
+			{
+				"name": "maincontent_hlink_color",
+				"type": "Color",
+				"label": "Main content link hover color",
+				"tooltip": "Select a default main content hover link color.",
+				"default": "#76797C",
+				"visibility": ""
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+			
+		]
+		
+	},
+	{
+		"groupname": "Footer Style",
+		"groupdesc": "You can set here style for footer.",
+		"fields": [
+					{
+				"name": "footer_bg_color",
+				"type": "Color",
+				"label": "Footer area background color",
+				"tooltip": "Select a footer background color.",
+				"default": "#323334",
+				"visibility": ""
+			},
+			{
+				"name": "footer_text_color",
+				"type": "Color",
+				"label": "Footer text color",
+				"tooltip": "Select a default footer text color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "footer_header_color",
+				"type": "Color",
+				"label": "Footer header color",
+				"tooltip": "Select a default footer header color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "footer_link_color",
+				"type": "Color",
+				"label": "Footer link color",
+				"tooltip": "Select a default footer link color.",
+				"default": "#61B2DD",
+				"visibility": ""
+			},
+			{
+				"name": "footer_hlink_color",
+				"type": "Color",
+				"label": "Footer link hover color",
+				"tooltip": "Select a default footer hover link color.",
+				"default": "#76797C",
+				"visibility": ""
+			},
+			{
+				"name": "copyright_bg_color",
+				"type": "Color",
+				"label": "Copyright area background color",
+				"tooltip": "Select a default copyright area background color.",
+				"default": "#161615",
+				"visibility": ""
+			},
+			{
+				"name": "copyright_bg_opacity",
+				"type": "Opacity",
+				"label": "Copyright area background opacity",
+				"tooltip": "Select a copyright area background opacity.",
+				"visibility": "",
+				"default": "1",
+				"other": {
+					"options": {
+						"0": "0",
+						"0.1": "0.1",
+						"0.2": "0.2",
+						"0.3": "0.3",
+						"0.4": "0.4",
+						"0.5": "0.5",
+						"0.6": "0.6",
+						"0.7": "0.7",
+						"0.8": "0.8",
+						"0.9": "0.9",
+						"1": "1"
+					}
+				}
+
+			}
+]
+		
+	}
+]

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'GoboldThinLight';
+  src: url('GoboldThinLight.svg#GoboldThinLight') format('svg'),
+       url('GoboldThinLight.ttf') format('truetype'),
+       url('GoboldThinLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gobold light';
+  src: url('gobold light.eot');
+  src: url('gobold light.eot?#iefix') format('embedded-opentype'),
+       url('gobold light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

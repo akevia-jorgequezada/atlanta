@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Raleway-Thin';
+  src: url('Raleway-Thin.eot');
+  src: url('Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+       url('Raleway-Thin.svg#Raleway-Thin') format('svg'),
+       url('Raleway-Thin.ttf') format('truetype'),
+       url('Raleway-Thin.woff') format('woff'),
+       url('Raleway-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

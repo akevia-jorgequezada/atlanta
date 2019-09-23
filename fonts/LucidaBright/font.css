@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'LucidaBright-Demi';
+  src: url('LucidaBright-Demi.svg#LucidaBright-Demi') format('svg'),
+       url('LucidaBright-Demi.ttf') format('truetype'),
+       url('LucidaBright-Demi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lucidabrightdemibold';
+  src: url('lucidabrightdemibold.eot');
+  src: url('lucidabrightdemibold.eot?#iefix') format('embedded-opentype'),
+       url('lucidabrightdemibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

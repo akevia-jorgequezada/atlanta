@@ -1,0 +1,408 @@
+[
+	{
+		"groupname": "Slider Settings",
+		"groupdesc": "You can set here slider type and style.",
+		"fields": [
+		{
+				"name": "slider_type",
+				"type": "Select",
+				"label": "Front Page Slider type",
+				"tooltip": "Select a slider type.",
+				"default": "revolution",
+				"other": {
+					"options": {
+						"revolution": "Revolution Slider",
+						"flex1": "Image slideshow (powered by Flex Slider 2)",
+						"flex2": "Content slideshow (powered by Flex Slider 2) ",
+						"3circle": "Custom Circle Widget in slider area",
+						"static": "Static content in slideshow area"
+					}
+				}
+
+			},
+			{
+				"name": "slider_explained",
+				"type": "TextBlock",
+				"label": "Below enter the slideshow specific settings."
+			},
+		{
+				"name": "flex1_slider_source",
+				"type": "Taxonomy",
+				"label": "Flex Image Slider Source",
+				"tooltip": "Here you can select which slideshow will be displayed on the home page using BX Slider.",
+				"class": "",
+				"visibility": "slider_type=flex1",
+				"default":"none",
+				"other": {
+					"slug": "slideshows"
+				}
+			},
+		{
+				"name": "flex2_slider_source",
+				"type": "Taxonomy",
+				"label": "Flex Content Slider Source",
+				"tooltip": "Here you can select which slideshow will be displayed on the home page using Flex slider.",
+				"class": "",
+				"visibility": "slider_type=flex2",
+				"default":"none",
+				"other": {
+					"slug": "slideshows"
+				}
+			},
+						{
+				"name": "slider_flex1_autoplay",
+				"type": "Switcher",
+				"label": "Autoplay",
+				"tooltip": "Enable/disable autoplay",
+				"visibility": "slider_type=flex1",
+				"default": "Y"
+			},
+			{
+				"name": "slider_flex1_speed",
+				"type": "Text",
+				"label": "Autoplay duration (s)",
+				"tooltip": "Specify the autoplay speed (slide duration) in seconds.",
+				"default": "7",
+				"visibility": "slider_type=flex1"
+			},
+			{
+				"name": "slider_flex1_transition",
+				"type": "Select",
+				"label": "Slides transition",
+				"tooltip": "Select a slide transition type ",
+				"default": "slide",
+				"visibility": "slider_type=flex1",
+				"other": {
+					"options": {
+						"slide": "Slide",
+						"fade": "Fade"
+					}
+				}
+
+			},
+			{
+				"name": "slider_flex1_transition_duration",
+				"type": "Text",
+				"label": "Transition duration (ms)",
+				"tooltip": "Specify the slide transition duration in miliseconds.",
+				"default": "600",
+				"visibility": "slider_type=flex1"
+			},
+			{
+				"name": "slider_flex1_transition_easing",
+				"type": "Select",
+				"label": "Slides transition easing",
+				"tooltip": "Select a slide transition easing type",
+				"default": "swing",
+				"visibility": "slider_type=flex1",
+				"other": {
+					"options": {
+						"swing": "swing",
+						"linear": "linear",
+						"easeInExpo": "easeInExpo",
+						"easeOutExpo": "easeOutExpo",
+						"easeInCirc": "easeInCirc",
+						"easeOutCirc": "easeOutCirc",
+						"easeInQuint": "easeInQuint",
+						"easeOutQuint": "easeOutQuint"
+					}
+				}
+
+			},
+			{
+				"name": "slider_flex1_desc_color",
+				"type": "Color",
+				"label": "Description text color",
+				"tooltip": "Select a slide description text color.",
+				"visibility": "slider_type=flex1",
+				"default": "#ffffff"
+			},
+			{
+				"name": "slider_flex1_desc_bgcolor",
+				"type": "Color",
+				"label": "Description background color",
+				"tooltip": "Select a slide description background color.",
+				"visibility": "slider_type=flex1",
+				"default": "#141414"
+			},
+			{
+				"name": "slider_flex1_desc_bgopacity",
+				"type": "Opacity",
+				"label": "Description background opacity",
+				"tooltip": "Select a description background opacity.",
+				"visibility": "slider_type=flex1",
+				"default": "0.7",
+				"other": {
+					"options": {
+						"0": "0",
+						"0.1": "0.1",
+						"0.2": "0.2",
+						"0.3": "0.3",
+						"0.4": "0.4",
+						"0.5": "0.5",
+						"0.6": "0.6",
+						"0.7": "0.7",
+						"0.8": "0.8",
+						"0.9": "0.9",
+						"1": "1"
+					}
+				}
+
+			},
+			{
+				"name": "slider_flex2_autoplay",
+				"type": "Switcher",
+				"label": "Autoplay",
+				"tooltip": "Enable/disable autoplay",
+				"visibility": "slider_type=flex2",
+				"default": "Y"
+			},
+			{
+				"name": "slider_flex2_speed",
+				"type": "Text",
+				"label": "Autoplay duration (s)",
+				"tooltip": "Specify the autoplay speed (slide duration) in seconds.",
+				"default": "7",
+				"visibility": "slider_type=flex2"
+			},
+			{
+				"name": "slider_flex2_transition",
+				"type": "Select",
+				"label": "Slides transition",
+				"tooltip": "Select a slide transition type ",
+				"default": "slide",
+				"visibility": "slider_type=flex2",
+				"other": {
+					"options": {
+						"slide": "Slide",
+						"fade": "Fade"
+					}
+				}
+
+			},
+			{
+				"name": "slider_flex2_transition_duration",
+				"type": "Text",
+				"label": "Transition duration (ms)",
+				"tooltip": "Specify the slide transition duration in miliseconds.",
+				"default": "600",
+				"visibility": "slider_type=flex2"
+			},
+			{
+				"name": "slider_flex2_transition_easing",
+				"type": "Select",
+				"label": "Slides transition easing",
+				"tooltip": "Select a slide transition easing type",
+				"default": "swing",
+				"visibility": "slider_type=flex2",
+				"other": {
+					"options": {
+						"swing": "swing",
+						"linear": "linear",
+						"easeInExpo": "easeInExpo",
+						"easeOutExpo": "easeOutExpo",
+						"easeInCirc": "easeInCirc",
+						"easeOutCirc": "easeOutCirc",
+						"easeInQuint": "easeInQuint",
+						"easeOutQuint": "easeOutQuint"
+					}
+				}
+
+			},
+			{
+				"name": "slider_flex2_desc_color",
+				"type": "Color",
+				"label": "Description text color",
+				"tooltip": "Select a slide description text color.",
+				"visibility": "slider_type=flex2",
+				"default": "#ffffff"
+			},
+			{
+				"name": "slider_flex2_desc_bgcolor",
+				"type": "Color",
+				"label": "Description background color",
+				"tooltip": "Select a slide description background color.",
+				"visibility": "slider_type=flex2",
+				"default": "#141414"
+			},
+			{
+				"name": "slider_flex2_desc_bgopacity",
+				"type": "Opacity",
+				"label": "Description background opacity",
+				"tooltip": "Select a description background opacity.",
+				"visibility": "slider_type=flex2",
+				"default": "0.7",
+				"other": {
+					"options": {
+						"0": "0",
+						"0.1": "0.1",
+						"0.2": "0.2",
+						"0.3": "0.3",
+						"0.4": "0.4",
+						"0.5": "0.5",
+						"0.6": "0.6",
+						"0.7": "0.7",
+						"0.8": "0.8",
+						"0.9": "0.9",
+						"1": "1"
+					}
+				}
+
+			},
+			{
+				"name": "slider_flex2_arrows",
+				"type": "Switcher",
+				"label": "Navigation arrows",
+				"tooltip": "Enable/disable navigation arrows",
+				"visibility": "slider_type=flex2",
+				"default": "Y"
+			},
+			{
+				"name": "slider_flex2_dots",
+				"type": "Switcher",
+				"label": "Navigation dots",
+				"tooltip": "Enable/disable navigation dots",
+				"visibility": "slider_type=flex2",
+				"default": "Y"
+			},
+			{
+				"name": "slider_revolution_source",
+				"type": "Text",
+				"label": "Revolution Slider ID",
+				"tooltip": "Specify the revolution slider ID (slug)",
+				"default": "",
+				"visibility": "slider_type=revolution"
+			},
+			{
+				"name": "three_circle_style",
+				"type": "Select",
+				"label": "CSS transition style",
+				"tooltip": "Select a CSS transitions style.",
+				"default": "circle1",
+				"visibility": "slider_type=3circle",
+				"other": {
+					"options": {
+						"circle1": "Style 1 (default)",
+						"circle2": "Style 2",
+						"circle3": "Style 3",
+						"circle4": "Style 4",
+						"circle5": "Style 5",
+						"circle6": "Style 6",
+						"circle7": "Style 7"
+					}
+				}
+
+			},
+			{
+				"name": "three_circle_title_1",
+				"type": "Text",
+				"label": "Item #1 title",
+				"tooltip": "Item #1 title",
+				"default": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_image_1",
+				"type": "Media",
+				"label": "Item #1 image",
+				"tooltip": "Select item #1 image.",
+				"default": "",
+				"class": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_text_1",
+				"type": "Textarea",
+				"label": "Item #1 text",
+				"tooltip": "Specify item #1 description.",
+				"default": "",
+				"class": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_link_1",
+				"type": "Text",
+				"label": "Item #1 link",
+				"tooltip": "Specify item #1 link",
+				"default": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_title_2",
+				"type": "Text",
+				"label": "Item #2 title",
+				"tooltip": "Item #2 title",
+				"default": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_image_2",
+				"type": "Media",
+				"label": "Item #2 image",
+				"tooltip": "Select item #2 image.",
+				"default": "",
+				"class": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_text_2",
+				"type": "Textarea",
+				"label": "Item #2 text",
+				"tooltip": "Specify item #2 description.",
+				"default": "",
+				"class": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_link_2",
+				"type": "Text",
+				"label": "Item #2 link",
+				"tooltip": "Specify item #2 link",
+				"default": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_title_3",
+				"type": "Text",
+				"label": "Item #3 title",
+				"tooltip": "Item #3 title",
+				"default": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_image_3",
+				"type": "Media",
+				"label": "Item #3 image",
+				"tooltip": "Select item #3 image.",
+				"default": "",
+				"class": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_text_3",
+				"type": "Textarea",
+				"label": "Item #3 text",
+				"tooltip": "Specify item #3 description.",
+				"default": "",
+				"class": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "three_circle_link_3",
+				"type": "Text",
+				"label": "Item #3 link",
+				"tooltip": "Specify item #3 link",
+				"default": "",
+				"visibility": "slider_type=3circle"
+			},
+			{
+				"name": "slider_static_content_width",
+				"type": "Switcher",
+				"label": "Enable full width",
+				"tooltip": "Enable/disable full width for static content in slideshow area",
+				"visibility": "slider_type=static",
+				"default": "Y"
+			}
+			]
+	}
+]

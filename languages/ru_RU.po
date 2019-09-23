@@ -1,0 +1,1625 @@
+# Translation of the WordPress theme Meet GavernWP by the GavickPro team.
+# Copyright (C) GavickPro 2012
+# This file is distributed under the same license as the PACKAGE package.
+# GavickPro <info@gavick.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SaitoSfera\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-08 09:57+0100\n"
+"PO-Revision-Date: 2013-02-08 10:02+0100\n"
+"Last-Translator: DynamicPress <studio@dynamicpress.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: ../404.php:20
+msgid "Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: ../404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../404.php:39
+msgid "Try looking in the monthly archives."
+msgstr ""
+
+#: ../archive.php:20
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:22
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:24
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:26
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:40 ../author.php:38 ../category.php:41 ../index.php:34
+#: ../search.php:40 ../search.php:50 ../tag.php:38 ../template.latest.php:50
+#: ../template.latest2.php:63
+msgid "Nothing Found"
+msgstr ""
+
+#: ../archive.php:42 ../author.php:42 ../category.php:45 ../index.php:38
+#: ../tag.php:42 ../template.latest.php:54 ../template.latest2.php:67
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: ../attachment.php:28
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: ../attachment.php:29
+#, php-format
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+#: ../attachment.php:72 ../content.php:30 ../functions.php:192
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../author.php:22
+#, php-format
+msgid "Author archives: %s %s"
+msgstr ""
+
+#: ../category.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:25
+#, php-format
+msgid "%1$s comment to &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../comments.php:27
+#, php-format
+msgid "%1$s comments to &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../comments.php:35 ../comments.php:50
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:38 ../comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:31 ../content-audio.php:30 ../content-chat.php:30
+#: ../content-gallery.php:30 ../content-gallery.php:58 ../content-image.php:30
+#: ../content-link.php:29 ../content-quote.php:31 ../content-status.php:29
+#: ../content-video.php:30
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: ../content-gallery.php:47
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgstr ""
+
+#: ../functions.php:260
+#: ../framework/classes/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:261
+#: ../framework/classes/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:262
+#: ../framework/classes/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:263
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:274
+#: ../framework/classes/class-tgm-plugin-activation.php:178
+#: ../framework/classes/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:275
+#: ../framework/classes/class-tgm-plugin-activation.php:179
+#: ../framework/classes/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:276
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска по: %s"
+
+#: ../search.php:44 ../search.php:56
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr "Извините, ничего не найдено. Попробуйте изменить ключевые слова."
+
+#: ../searchform.php:13
+msgid "Search"
+msgstr "Поиск"
+
+#: ../single-portfolio.php:111
+msgid "Project details"
+msgstr ""
+
+#: ../single-portfolio.php:115
+msgid "Job description"
+msgstr ""
+
+#: ../single-portfolio.php:130
+msgid "Launch Project"
+msgstr ""
+
+#: ../single-portfolio.php:137
+msgid "Related projects"
+msgstr ""
+
+#: ../tag.php:20
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../template.archive.php:27
+msgid "Lastest posts"
+msgstr ""
+
+#: ../template.archive.php:39 ../framework/post_types/portfolio.php:75
+msgid "Categories"
+msgstr ""
+
+#: ../template.archive.php:51
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../template.contact.php:33
+msgid "please enter your name"
+msgstr "введите своё имя, пожалуйста"
+
+#: ../template.contact.php:40
+msgid "please enter correct email address."
+msgstr ""
+
+#: ../template.contact.php:47
+msgid "please enter a text of the message."
+msgstr ""
+
+#: ../template.contact.php:66
+msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr ""
+
+#: ../template.contact.php:106
+msgid "Your message was sent to us successfully."
+msgstr ""
+
+#: ../template.contact.php:110
+msgid "Sorry, an error occured."
+msgstr "Извините, произошла ошибка"
+
+#: ../template.contact.php:116
+msgid "Name:"
+msgstr "Имя:"
+
+#: ../template.contact.php:126
+msgid "Email:"
+msgstr "E-mail:"
+
+#: ../template.contact.php:136
+msgid "Message:"
+msgstr "Сообщение:"
+
+#: ../template.contact.php:148
+msgid "Send copy of the message to yourself"
+msgstr "Отправить копию самому себе"
+
+#: ../template.contact.php:171
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+#: ../template.login.php:31
+msgid "Hi, "
+msgstr "Привет, "
+
+#: ../template.login.php:32 ../template.login.php:33
+msgid "Logout"
+msgstr "Выйти"
+
+#: ../template.login.php:44
+msgid "Username"
+msgstr ""
+
+#: ../template.login.php:45
+msgid "Password"
+msgstr ""
+
+#: ../template.login.php:46
+msgid "Remember Me"
+msgstr ""
+
+#: ../template.login.php:47
+msgid "Log In"
+msgstr ""
+
+#: ../template.login.php:62
+msgid "Password Lost and Found"
+msgstr ""
+
+#: ../template.login.php:62
+msgid "Lost your password?"
+msgstr ""
+
+#: ../template.login.php:65
+msgid "Not a member? Register"
+msgstr ""
+
+#: ../template.login.php:65
+msgid "Register"
+msgstr ""
+
+#: ../template.portfolio-four.php:28 ../template.portfolio-six.php:28
+#: ../template.portfolio-three.php:28 ../template.portfolio-two.php:28
+msgid "All"
+msgstr ""
+
+#: ../framework/filters.php:18
+msgid "Google Profile URL"
+msgstr ""
+
+#: ../framework/filters.php:83
+msgid "&laquo; Back"
+msgstr ""
+
+#: ../framework/filters.php:95
+msgid "WordPress &rsaquo; Error"
+msgstr ""
+
+#: ../framework/filters.php:116 ../framework/helpers/helpers.features.php:318
+msgid "Homepage"
+msgstr ""
+
+#: ../framework/functions.php:52
+msgid "Template options"
+msgstr ""
+
+#: ../framework/functions.php:69
+msgid "Import/Export"
+msgstr ""
+
+#: ../framework/functions.php:81
+msgid "Support Forum"
+msgstr ""
+
+#: ../framework/options.importexport.php:24
+#: ../framework/options.template.php:20 ../framework/options.template.php:181
+msgid "You don't have sufficient permissions to access this page!"
+msgstr ""
+
+#: ../framework/options.template.php:177
+msgid "Settings saved"
+msgstr ""
+
+#: ../framework/widget.comments.php:19
+msgid "DP Comments"
+msgstr ""
+
+#: ../framework/widget.comments.php:22
+msgid "Use this widget to show recent comments with avatars"
+msgstr ""
+
+#: ../framework/widget.comments.php:51
+msgid "Latest Comments"
+msgstr ""
+
+#: ../framework/widget.comments.php:175 ../framework/widget.flickr.php:143
+#: ../framework/widget.recent_portfolio.php:167
+#: ../framework/widget.recent_portfolio_grid.php:131
+#: ../framework/widget.recent_posts.php:167 ../framework/widget.social.php:138
+#: ../framework/widget.tweets.php:185
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widget.comments.php:180
+msgid "Avatar size:"
+msgstr ""
+
+#: ../framework/widget.comments.php:185
+msgid "Word count:"
+msgstr ""
+
+#: ../framework/widget.comments.php:190
+msgid "Number of comments:"
+msgstr ""
+
+#: ../framework/widget.flickr.php:20
+msgid "DP Flickr Gallery"
+msgstr ""
+
+#: ../framework/widget.flickr.php:23
+msgid "Use this widget to show gallery from Flickr"
+msgstr ""
+
+#: ../framework/widget.flickr.php:148
+msgid "Flickr user ID:"
+msgstr ""
+
+#: ../framework/widget.flickr.php:153
+msgid "Image count limit:"
+msgstr ""
+
+#: ../framework/widget.flickr.php:158
+msgid "Show image title:"
+msgstr ""
+
+#: ../framework/widget.flickr.php:161 ../framework/widget.flickr.php:170
+#: ../framework/widget.tweets.php:211 ../framework/widget.tweets.php:221
+#: ../framework/form_elements/standard.php:283
+#: ../framework/form_elements/Menu/menu.php:58
+msgid "Disabled"
+msgstr ""
+
+#: ../framework/widget.flickr.php:162 ../framework/widget.flickr.php:171
+#: ../framework/widget.tweets.php:210 ../framework/widget.tweets.php:220
+#: ../framework/form_elements/standard.php:284
+#: ../framework/form_elements/Menu/menu.php:57
+msgid "Enabled"
+msgstr ""
+
+#: ../framework/widget.flickr.php:167
+msgid "Show image date:"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio.php:19
+msgid "DP Recent Portfolio"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio.php:22
+msgid "Use this widget to show recent portfolio items"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio.php:172
+msgid "Portfolio category:"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio.php:177
+#: ../framework/widget.recent_portfolio_grid.php:136
+#: ../framework/widget.recent_posts.php:177
+msgid "Item count:"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio.php:181
+#: ../framework/widget.recent_portfolio_grid.php:145
+#: ../framework/widget.recent_posts.php:181
+msgid "Word limit in excerpt:"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio.php:185
+#: ../framework/widget.recent_posts.php:185
+msgid "Thumnail width (px):"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio_grid.php:19
+#, fuzzy
+msgid "DP Recent Portfolio Grid"
+msgstr "Искать в работах"
+
+#: ../framework/widget.recent_portfolio_grid.php:22
+msgid "Use this widget to show recent portfolio items in thumbnail grid form"
+msgstr ""
+
+#: ../framework/widget.recent_portfolio_grid.php:140
+msgid "Thumbnail width (px):"
+msgstr ""
+
+#: ../framework/widget.recent_posts.php:19
+msgid "DP Recent Posts"
+msgstr ""
+
+#: ../framework/widget.recent_posts.php:22
+msgid "Use this widget to show recent posts"
+msgstr ""
+
+#: ../framework/widget.recent_posts.php:172
+msgid "Posts category:"
+msgstr ""
+
+#: ../framework/widget.social.php:19
+msgid "DP Social Icons"
+msgstr ""
+
+#: ../framework/widget.social.php:22
+msgid "Use this widget to show social links"
+msgstr ""
+
+#: ../framework/widget.social.php:143
+msgid "Facebook link:"
+msgstr ""
+
+#: ../framework/widget.social.php:148
+msgid "Twitter link:"
+msgstr ""
+
+#: ../framework/widget.social.php:153
+msgid "Google+ link:"
+msgstr ""
+
+#: ../framework/widget.social.php:158
+msgid "RSS link:"
+msgstr ""
+
+#: ../framework/widget.tweets.php:19
+msgid "DP Tweets Widget"
+msgstr ""
+
+#: ../framework/widget.tweets.php:22
+msgid "Use this widget to show recent tweets for specific query"
+msgstr ""
+
+#: ../framework/widget.tweets.php:46
+msgid "DP Tweets"
+msgstr ""
+
+#: ../framework/widget.tweets.php:110
+msgid "The amount of tweets must be bigger than 0"
+msgstr ""
+
+#: ../framework/widget.tweets.php:113
+msgid "The specified query is empty"
+msgstr ""
+
+#: ../framework/widget.tweets.php:116
+msgid "The cURL extension is not available on your server"
+msgstr ""
+
+#: ../framework/widget.tweets.php:188
+msgid "Query:"
+msgstr ""
+
+#: ../framework/widget.tweets.php:193
+msgid "Amount of tweets:"
+msgstr ""
+
+#: ../framework/widget.tweets.php:198
+msgid "Result type:"
+msgstr ""
+
+#: ../framework/widget.tweets.php:200
+msgid "Mixed (Recent and Popular)"
+msgstr ""
+
+#: ../framework/widget.tweets.php:201
+msgid "Recent"
+msgstr ""
+
+#: ../framework/widget.tweets.php:202
+msgid "Popular"
+msgstr ""
+
+#: ../framework/widget.tweets.php:207
+msgid "Show username:"
+msgstr ""
+
+#: ../framework/widget.tweets.php:216
+msgid "Show date:"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:517
+#: ../framework/classes/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1956
+#: ../framework/classes/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1956
+#: ../framework/classes/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/classes/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/form_elements/standard.php:322
+msgid "Upload Image"
+msgstr ""
+
+#: ../framework/form_elements/standard.php:323
+msgid "Remove Image"
+msgstr ""
+
+#: ../framework/form_elements/standard.php:324
+msgid "Enter an URL or upload an image."
+msgstr ""
+
+#: ../framework/form_elements/standard.php:433
+msgid "--Select--"
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:56
+msgid "Standard fonts"
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:57
+msgid "Fonts Squirrel"
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:58
+msgid "Google Web Fonts"
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:61
+msgid "Font family: "
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:82
+msgid "Fonts Squirrel: "
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:91
+msgid "You have no fonts in fonts/ directory"
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:97
+msgid "Google Web Fonts URL: "
+msgstr ""
+
+#: ../framework/form_elements/Fonts/fonts.php:110
+msgid "Selectors:"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:52
+msgid "Enable"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:53
+msgid "You can enable or disable showing the menu in the template."
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:59
+#: ../framework/form_elements/Menu/menu.php:66
+msgid "Conditional rule"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:67
+msgid "You can enable showing the menu in the specific pages."
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:75
+msgid "Depth of "
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:76
+msgid "You can specify the menu depth."
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:80
+msgid "All levels"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:93
+msgid "Animation for "
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:94
+msgid "You can specify the menu animation."
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:98
+msgid "Width, Height and Opacity"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:99
+msgid "Width and Opacity"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:100
+msgid "Height and Opacity"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:101
+msgid "Opacity"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:102
+msgid "No animation"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:109
+msgid "Animation speed for "
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:110
+msgid "You can specify the speed of the menu animation."
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:114
+msgid "Fast animation (250ms)"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:115
+msgid "Normal animation (500ms)"
+msgstr ""
+
+#: ../framework/form_elements/Menu/menu.php:116
+msgid "Slow animation (1000ms)"
+msgstr ""
+
+#: ../framework/helpers/helpers.3circle.slider.php:19
+#: ../framework/helpers/helpers.3circle.slider.php:35
+#: ../framework/helpers/helpers.3circle.slider.php:51
+#: ../framework/helpers/helpers.3circle.slider.php:69
+#: ../framework/helpers/helpers.3circle.slider.php:80
+#: ../framework/helpers/helpers.3circle.slider.php:91
+#: ../framework/helpers/helpers.3circle.slider.php:107
+#: ../framework/helpers/helpers.3circle.slider.php:118
+#: ../framework/helpers/helpers.3circle.slider.php:129
+#: ../framework/helpers/helpers.3circle.slider.php:145
+#: ../framework/helpers/helpers.3circle.slider.php:157
+#: ../framework/helpers/helpers.3circle.slider.php:169
+#: ../framework/helpers/helpers.3circle.slider.php:189
+#: ../framework/helpers/helpers.3circle.slider.php:205
+#: ../framework/helpers/helpers.3circle.slider.php:221
+#: ../framework/helpers/helpers.3circle.slider.php:242
+#: ../framework/helpers/helpers.3circle.slider.php:258
+#: ../framework/helpers/helpers.3circle.slider.php:274
+#: ../framework/helpers/helpers.3circle.slider.php:294
+#: ../framework/helpers/helpers.3circle.slider.php:308
+#: ../framework/helpers/helpers.3circle.slider.php:322
+msgid "read more"
+msgstr ""
+
+#: ../framework/helpers/helpers.contentcarousel.php:59
+#: ../framework/helpers/helpers.contentslideshow.php:64
+#: ../framework/helpers/helpers.flex1.slider.php:117
+#: ../framework/helpers/helpers.flex1.slider.php:151
+#: ../framework/helpers/helpers.flex2.slider.php:95
+msgid "You don't have any Slides to display."
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:51
+msgid "Layout"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:104
+msgid "Page layout"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:108
+msgid "Sidebar on the left"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:109
+msgid "Sidebar on the right"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:110
+msgid "Sidebar disabled"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:118
+msgid "Theme width"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:127
+msgid "Sidebar % width"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:136
+msgid "Tablet width"
+msgstr ""
+
+#: ../framework/helpers/helpers.customizer.php:145
+msgid "Mobile width"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:61
+msgid "Post description"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:65
+msgid "Post keywords"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:67
+msgid "Slide Setting"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:68
+msgid "Portfolio Item Setting"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:308
+msgid "Visible at: "
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:310
+msgid "All pages"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:311
+msgid "All pages expecting:"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:312
+msgid "No pages expecting:"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:316
+msgid "Select page to add"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:319
+msgid "Page"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:320
+msgid "Post"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:321
+msgid "Category"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:322
+msgid "Tag"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:323
+msgid "Archive"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:324
+msgid "Author"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:325
+msgid "Search page"
+msgstr "Страница с результатами поиска"
+
+#: ../framework/helpers/helpers.features.php:326
+msgid "404 page"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:328
+msgid "Page ID/Title/slug:"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:329
+msgid "Post ID/Title/slug:"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:330
+msgid "Category ID/Name/slug:"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:331
+msgid "Tag ID/Name:"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:332
+msgid "Author:"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:333
+msgid "Add page"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:336
+msgid "Selected pages"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:337
+msgid "No pages"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:456
+msgid "None"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:485
+msgid "No styles available"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:488
+msgid "Custom CSS class"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:491
+msgid "Widget style: "
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:495
+msgid "Custom CSS class: "
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:498
+msgid "All devices"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:499
+msgid "Desktop"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:500
+msgid "Tablets"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:501
+msgid "Smartphones"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:502
+msgid "Tablet/Smartphones"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:505
+msgid "Visible on: "
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:514
+msgid "All users"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:515
+msgid "Only guests"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:516
+msgid "Only registered users"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:517
+msgid "Only administrator"
+msgstr ""
+
+#: ../framework/helpers/helpers.features.php:520
+msgid "Visible for: "
+msgstr ""
+
+#: ../framework/helpers/helpers.flex1.slider.php:102
+#: ../framework/helpers/helpers.flex2.slider.php:80
+msgid "LEARN MORE"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:36
+msgid "Pingback:"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:38
+#: ../framework/helpers/helpers.layout.fragments.php:75
+msgid "Edit"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:50
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:59
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:68
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:82
+msgid "Reply"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:110
+msgid ", "
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:126
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:132
+msgid "Leave a reply"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:133
+msgid "<b>1</b> Comment"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:134
+msgid "<b>%</b> Comments"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:165
+msgid "Pages:"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:235
+#, fuzzy
+msgid "Name"
+msgstr "Имя:"
+
+#: ../framework/helpers/helpers.layout.fragments.php:237
+#, fuzzy
+msgid "Email"
+msgstr "E-mail:"
+
+#: ../framework/helpers/helpers.layout.fragments.php:239
+msgid "Website"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:243
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:247
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:248
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:249
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:250
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:253
+msgid "Leave Comment"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:254
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:255
+msgid "Cancel reply"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:256
+msgid "Submit"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:382
+msgid "Tweet"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:388
+msgid "Pin it"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:446
+#, php-format
+msgid "Author: %s %s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:458
+msgid "Website: "
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.fragments.php:467
+msgid "Google Profile"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.php:54
+#, php-format
+msgid "Search results for %s"
+msgstr "Результаты поиска по %s"
+
+#: ../framework/helpers/helpers.layout.php:57
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.php:819
+msgid "Next >"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.php:820
+msgid "< Prev"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.php:821
+#: ../framework/post_types/portfolio.php:76
+#: ../framework/post_types/slide.php:76
+msgid "Image"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.php:822
+msgid "of"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.php:823
+msgid "Close"
+msgstr ""
+
+#: ../framework/helpers/helpers.layout.php:824
+msgid ""
+"This feature requires inline frames. You have iframes disabled or your "
+"browser does not support them."
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:61
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:101
+#: ../framework/helpers/helpers.menu.php:104
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:113
+msgid "URL"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:122
+msgid "Navigation Label"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:131
+msgid "Title Attribute"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:141
+msgid "Link Target"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:144
+msgid "Same window or tab"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:145
+msgid "New window or tab"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:151
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:161
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:170
+msgid "Description"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:174
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:180
+msgid "Subtext"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:190
+msgid "Icon"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:218
+msgid "Submenu width (px)"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:228
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:241
+msgid "Remove"
+msgstr ""
+
+#: ../framework/helpers/helpers.menu.php:244
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/helpers/helpers.shortcodes.php:329
+msgid "Top"
+msgstr ""
+
+#: ../framework/layouts/template.php:30
+msgid "Customize theme"
+msgstr ""
+
+#: ../framework/layouts/template.php:52
+msgid "Saving&hellip;"
+msgstr ""
+
+#: ../framework/layouts/template.php:52
+msgid "Save settings"
+msgstr ""
+
+#: ../framework/layouts/template.php:52
+msgid "Please check the form!"
+msgstr ""
+
+#: ../framework/layouts/updates.php:17
+msgid "Updates"
+msgstr ""
+
+#: ../framework/layouts/updates.php:21
+msgid "Template version: "
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:31
+msgid ""
+"Define the type of portfolio item <span>(This choice determines the type of "
+"displayable content)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:33
+msgid ""
+"<i><b>Note!</b><br/>An ''<b>Single image portfolio item</b>'' will be use "
+"fetured image as thumb and main image in single portfolio view.<br/>An "
+"''<b>Gallery portfolio item</b>'' vill be use featured image of post as "
+"thumb and  post gallery as source for slideshow in single portfolio view.<br/"
+">An ''<b>Video portfolio item</b>'' will be use featured image as thubnail "
+"and video (entered above) in single portfolio view. </i> "
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:36
+msgid "Single Image"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:37
+msgid "Gallery"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:38
+msgid "Video"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:43
+msgid "Link to video"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:46
+msgid "<span>Just link, not embed code, this field is used for oEmbed.</span>"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:49
+msgid "Job Description <span>(optional)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:50
+msgid ""
+"<span>Enter in a job description you want to show in the single portfolio "
+"item view. Leave blank if you do not want a description to show.</span>"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:56
+msgid "Date of project <span>(optional)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:60
+msgid "Client name <span>(optional)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/portfolio_meta_box.php:64
+msgid "Launch project URL <span>(optional)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:35
+msgid ""
+"Define the type of slide <span>(This choice determines the type of "
+"displayable content)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:37
+msgid ""
+"<i><b>Note!</b><br/>An ''<b>Content Slide</b>'' will output the post content "
+"entered above in the main content. <br/>An ''<b>Image Slide</b>'' will use "
+"the featured image for the slide area. Post content above will be completely "
+"ignored. But you can enter in the fields that will appear below if you "
+"choose this type of slide, a description of the image and a link. </i> "
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:40
+#: ../framework/post_types/slide.php:110
+msgid "Image Slide"
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:41
+#: ../framework/post_types/slide.php:112
+msgid "Content Slide"
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:46
+msgid "Description <span>(optional)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:50
+msgid ""
+"<span>Enter in a description you want to show over the image. Leave blank if "
+"you do not want a description to show.</span>"
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:52
+msgid "Image Link <span>(optional)</span>"
+msgstr ""
+
+#: ../framework/metaboxes/slide_meta_box.php:56
+msgid ""
+"<span>Enter where you'd like this image slide to link to. Leave this option "
+"blank if you do not want this slide to be clickable.</span>"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:15
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:16
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:17
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:18
+msgid "Preview Portfolio Item"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:19
+msgid "Search Portfolio"
+msgstr "Искать в работах"
+
+#: ../framework/post_types/portfolio.php:20
+msgid "No portfolio found"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:21
+msgid "No portfolio items found in Trash."
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:27
+#: ../framework/post_types/portfolio.php:29 ../layouts/before.php:98
+msgid "Portfolio"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:52
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:53
+msgid "All Categories"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:54
+msgid "Add New Category"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:55
+msgid "New Category Name"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:73
+msgid "Portfolio Item Title"
+msgstr ""
+
+#: ../framework/post_types/portfolio.php:74
+msgid "Date"
+msgstr ""
+
+#: ../framework/post_types/slide.php:15
+msgid "Add New Slide"
+msgstr ""
+
+#: ../framework/post_types/slide.php:16
+msgid "Edit Slide"
+msgstr "Edytuj slide"
+
+#: ../framework/post_types/slide.php:17
+msgid "New Slide"
+msgstr ""
+
+#: ../framework/post_types/slide.php:18
+msgid "Preview Slide"
+msgstr ""
+
+#: ../framework/post_types/slide.php:19
+msgid "Search Slides"
+msgstr "Искать в слайдах"
+
+#: ../framework/post_types/slide.php:20
+msgid "No slides found."
+msgstr ""
+
+#: ../framework/post_types/slide.php:21
+msgid "No slides found in Trash."
+msgstr ""
+
+#: ../framework/post_types/slide.php:27
+msgid "Slides"
+msgstr ""
+
+#: ../framework/post_types/slide.php:29
+msgid "Slide"
+msgstr ""
+
+#: ../framework/post_types/slide.php:52
+msgid "Slideshows"
+msgstr "dupa jasiu"
+
+#: ../framework/post_types/slide.php:53
+msgid "All Slideshows"
+msgstr ""
+
+#: ../framework/post_types/slide.php:54
+msgid "Add New Slideshow"
+msgstr ""
+
+#: ../framework/post_types/slide.php:55
+msgid "New Slideshow Name"
+msgstr ""
+
+#: ../framework/post_types/slide.php:73
+msgid "Slide Title"
+msgstr "Tytuł slide"
+
+#: ../framework/post_types/slide.php:74
+msgid "Slideshow"
+msgstr ""
+
+#: ../framework/post_types/slide.php:75
+msgid "Slide Type"
+msgstr ""
+
+#: ../framework/post_types/slide.php:90
+msgid "Oops! This is an image slide, but you forgot a featured image."
+msgstr ""
+
+#: ../framework/post_types/slide.php:93
+msgid ""
+"This is an revolution slide, but you don't use featured image. Slide will "
+"have transparent background."
+msgstr ""
+
+#: ../framework/post_types/slide.php:111
+msgid "Revolution Animated Slide"
+msgstr ""
+
+#: ../framework/tinymce/boxes_dialog.php:8
+#: ../framework/tinymce/buttons_dialog.php:8
+#: ../framework/tinymce/columns_dialog.php:8
+#: ../framework/tinymce/icon_boxes_dialog.php:8
+#: ../framework/tinymce/images_dialog.php:6
+#: ../framework/tinymce/lightbox_dialog.php:8
+#: ../framework/tinymce/lists_dialog.php:8
+#: ../framework/tinymce/map_dialog.php:8
+#: ../framework/tinymce/slideshow_dialog.php:8
+#: ../framework/tinymce/style_dialog.php:8
+#: ../framework/tinymce/tabs_dialog.php:8
+#: ../framework/tinymce/testimonials_dialog.php:8
+#: ../framework/tinymce/vimeo_dialog.php:8
+#: ../framework/tinymce/youtube_dialog.php:8
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: ../layouts/content.portfolio.header.php:23
+#: ../layouts/content.post.header.php:23
+msgid "Featured"
+msgstr ""
+
+#: ../layouts/header.php:104
+msgid "Main menu"
+msgstr ""

@@ -1,0 +1,45 @@
+/**
+ *
+ * -------------------------------------------
+ * Stylesheet for the template.gallery.php page style
+ * -------------------------------------------
+ * 
+ **/
+ 
+#gallery .flexslider, .flexslider.carousel  {margin:0}
+#gallery .flex-control-nav {top:10px;}
+#gallery .flexslider:hover .flex-next {opacity: 0.9; right: 0px;}
+#gallery .flexslider:hover .flex-prev {opacity: 0.9; left: 0px;}
+#gallery figcaption {
+	background: rgba(0, 0, 0, 0.5);
+	bottom: -100%;
+	padding: 14px 20px 6px 20px;
+	position: absolute;
+	-webkit-transition: bottom 0.5s ease-out;
+	-moz-transition: bottom 0.5s ease-out;
+	-ms-transition: bottom 0.5s ease-out;
+	-o-transition: bottom 0.5s ease-out;
+	transition: bottom 0.5s ease-out;
+	width: 100%;
+	z-index: 2;
+}
+#gallery .flex-active-slide figcaption { bottom:0%}
+#gallery figcaption h3 {
+	color: #fff;
+	font-size: 16px;
+	margin: 0;
+}
+
+#gallery figcaption p {
+	color: #ddd;
+	font-size: 12px;
+	margin: 0;
+}
+
+#gallery figcaption small {
+	color: #aaa;
+	font-size: 9px;
+	margin: 0;
+	text-align: right;
+	text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+[
+	["General Options", 				"options.basic",					"enabled"],
+	["Layout",	 						"options.layout",					"enabled"],
+	["Navigation", 						"options.navigation",				"enabled"],
+	["Typography", 						"options.fonts",					"enabled"],
+	["Apperance", 						"options.themestyling",				"enabled"],
+	["Slider Settings", 				"options.sliders",					"enabled"],
+	["Content Options", 				"options.contentstyling",			"enabled"],
+	["Social API", 						"options.socialapi",				"enabled"],
+	["Advanced", 						"options.advanced",					"enabled"],
+	["Branding Options", 				"options.themebranding",			"enabled"],
+	["SEO", 							"options.seo",						"enabled"]
+]
